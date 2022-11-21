@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tweeker/static/css/main.269b6569.css",
+    "main.js": "/tweeker/static/js/main.163acd2e.js",
+    "index.html": "/tweeker/index.html",
+    "main.269b6569.css.map": "/tweeker/static/css/main.269b6569.css.map",
+    "main.163acd2e.js.map": "/tweeker/static/js/main.163acd2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.269b6569.css",
+    "static/js/main.163acd2e.js"
+  ]
+}
