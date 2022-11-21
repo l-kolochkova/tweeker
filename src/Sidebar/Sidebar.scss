@@ -1,0 +1,42 @@
+.sidebar {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid  #11508f;
+    border-radius: 5px;
+    position: fixed;
+    margin-top: 72px;
+    left: 7%;
+    z-index: -1000;
+    padding: .5rem;
+}
+
+button {
+    min-width: 100px;
+    font-weight: bolder;
+    font-family: 'poppins', sans-serif;
+    padding: .5rem;
+    margin: 1rem;
+    border: 2px solid #53a8b6;
+    color: #53a8b6;
+    background-color: #edfdff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+        font-weight: bolder;
+    }
+
+    .welcome-msg {
+        padding: 10px;
+    }
+    
+}

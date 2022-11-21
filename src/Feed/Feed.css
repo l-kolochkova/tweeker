@@ -1,0 +1,8 @@
+.feed {
+  display: block;
+  position: absolute;
+  right: 30%;
+  width: 40vw;
+  padding-top: 64px;
+  z-index: -1001;
+}/*# sourceMappingURL=Feed.css.map */

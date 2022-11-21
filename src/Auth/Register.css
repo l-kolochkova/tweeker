@@ -1,0 +1,74 @@
+.signup-page {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(171, 171, 171);
+}
+
+.signup-form {
+  background-color: white;
+  padding: 3rem;
+  position: absolute;
+  right: 25%;
+  width: 40vw;
+  padding-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-form h1 {
+  text-align: center;
+}
+.signup-form .email-input,
+.signup-form .pwd-input,
+.signup-form .name-input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.signup-form label {
+  margin: 5px;
+  margin-left: 0;
+}
+.signup-form input {
+  font-family: "poppins", sans-serif;
+  font-size: smaller;
+  box-sizing: border-box;
+  outline: none !important;
+  border: solid 1px #53a8b6;
+  padding: 7px;
+}
+.signup-form input:focus {
+  border: solid 2px #53a8b6;
+}
+.signup-form input:focus:invalid {
+  border: dashed 2px rgb(183, 58, 58);
+}
+.signup-form button {
+  min-width: 100px;
+  max-width: 200px;
+  font-weight: bolder;
+  font-family: "poppins", sans-serif;
+  padding: 0.5rem;
+  margin: 1rem;
+  border: 2px solid #53a8b6;
+  color: #53a8b6;
+  background-color: #edfdff;
+  border-radius: 5px;
+  align-self: center;
+  cursor: pointer;
+}
+.signup-form button:disabled {
+  cursor: default;
+  border-color: rgb(231, 21, 21);
+  color: rgb(231, 21, 21);
+  background-color: rgb(255, 231, 231);
+}
+.signup-form .success-msg {
+  color: #53a8b6;
+  font-weight: bolder;
+}/*# sourceMappingURL=Register.css.map */

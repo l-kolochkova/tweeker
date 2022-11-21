@@ -1,0 +1,54 @@
+.dummy-create {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.dummy-create .create-modal {
+  background-color: white;
+  padding: 3rem;
+  position: absolute;
+  right: 25%;
+  width: 40vw;
+  padding-top: 64px;
+}
+.dummy-create .create-modal .title-create {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.dummy-create .create-modal .desc-create {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.dummy-create .create-modal textarea {
+  resize: none;
+}
+.dummy-create .create-modal label {
+  margin: 5px;
+  margin-left: 0;
+}
+.dummy-create .create-modal textarea,
+.dummy-create .create-modal input {
+  font-family: "poppins", sans-serif;
+  font-size: smaller;
+  box-sizing: border-box;
+  outline: none !important;
+  border: solid 1px #53a8b6;
+  padding: 7px;
+}
+.dummy-create .create-modal textarea:focus,
+.dummy-create .create-modal input:focus {
+  border: solid 2px #53a8b6;
+}
+.dummy-create .create-modal .modal-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}/*# sourceMappingURL=CreateModal.css.map */
