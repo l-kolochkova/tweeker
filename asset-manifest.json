@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tweeker/static/css/main.269b6569.css",
-    "main.js": "/tweeker/static/js/main.163acd2e.js",
+    "main.js": "/tweeker/static/js/main.edc23997.js",
     "index.html": "/tweeker/index.html",
     "main.269b6569.css.map": "/tweeker/static/css/main.269b6569.css.map",
-    "main.163acd2e.js.map": "/tweeker/static/js/main.163acd2e.js.map"
+    "main.edc23997.js.map": "/tweeker/static/js/main.edc23997.js.map"
   },
   "entrypoints": [
     "static/css/main.269b6569.css",
-    "static/js/main.163acd2e.js"
+    "static/js/main.edc23997.js"
   ]
 }
