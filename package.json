@@ -2,7 +2,6 @@
   "name": "lab3",
   "version": "0.1.0",
   "homepage": "https://l-kolochkova.github.io/tweeker",
-  "private": true,
   "dependencies": {
     "jwt-decode": "^3.1.2",
     "react": "^18.2.0",
