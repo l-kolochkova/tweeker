@@ -28,8 +28,10 @@ export default function Login() {
         .then((data) => {
           // console.log(data);
           localStorage.setItem("token", data.accessToken);
-          localStorage.setItem("uname", data.uname);
           localStorage.setItem("uid", data.uid);
+          localStorage.setItem("uname", data.uname);
+          window.dispatchEvent(new Event('storage'));
+
           navigate("/home");
         })
         .catch((e) => {

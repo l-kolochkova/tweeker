@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   const [openCreateDialog, setOpenCreateDialog] = useState(false);
+  const [uname, setUname] = useState(localStorage.getItem('uname'))
+
+  window.addEventListener('storage', () => {
+    setUname(localStorage.getItem('uname'))
+  })
 
   const handleClick = (e) => {
     setOpenCreateDialog(true);
@@ -14,7 +19,7 @@ export default function Sidebar() {
     <>
       <div className="sidebar">
         <div className="welcome">
-          <div className="welcome-msg">Hello, <span id="uname">{localStorage.getItem('uname')}</span>!&#127756;</div>
+          <div className="welcome-msg">Hello, <span id="uname">{uname}</span>!&#127756;</div>
           <Link to="/logout">Log Out</Link>
         </div>
         <div className="sidebar-items">
